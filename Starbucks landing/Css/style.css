@@ -2,16 +2,16 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 section{
     position: relative;
     width: 100%;
     min-height: 100vh;
     padding: 150px 100px;
-    /* display: flex; */
-    /* justify-content: space-between;
-    align-items: center; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: #fff;
 }
 header{
@@ -55,6 +55,7 @@ ul li a{
 .content .textBox{
     position: relative;
     max-height: 600px;
+    width: 60%; /* not in original code */
 }
 .content .textBox h2{
     color: #333;
@@ -80,5 +81,73 @@ ul li a{
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 1px;
-    
+}
+.content .imgBox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+    margin-top: 50;
+}
+.content .imgBox img{
+    max-width: 340px;
+}
+/* end landing section */
+
+/* begin image nav section */
+.thumb{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.thumb li{
+    list-style: none;
+    cursor: crosshair;
+    margin: 0px 20px;
+    display: inline-block;
+    transition: 1.5s
+}
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+
+.thumb li img{
+    max-width: 60px;
+}
+/* end img nav  */
+
+/* begin social */
+.social{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.social li{
+    list-style: none;
+    margin: 10px 20px;
+    filter: invert(1);
+}
+.social li a{
+    display: inline-block;
+    margin: 5px 0px;
+    transform: scale(0.6);
+}
+/* end social */
+
+/* begin circle */
+.circle{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(600px at right 800px);
 }

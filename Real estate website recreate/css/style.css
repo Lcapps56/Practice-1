@@ -24,6 +24,11 @@ header nav ul{
     display: flex;
     list-style: none;
 }
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
 #landing{
     padding-top: 100px;
     background: url("../images/citystreet.jpeg") no-repeat center;

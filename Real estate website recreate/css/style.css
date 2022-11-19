@@ -200,3 +200,46 @@ header nav ul li a{
     width: 200px;
     filter: saturate(70%);
 }
+/* END STYLING */
+
+/* BEGIN MOBILE RESPONSIVE (DESKTOP SMALL) */
+@media  screen and (max-width:1121px) {
+    #mini{
+        margin-bottom: 10px;
+    }
+    #brands{
+        padding: 30px 20px;
+    }
+}
+@media  screen and (max-width:970px) {
+    #searchBox h3{
+        line-height: 25px;;
+    }
+}@media  screen and (max-width:788px) {
+    #searchBox p{
+        display: none;
+    }
+    #shadow{
+        margin-top: 10px;
+    }
+    #search{
+        display: block;
+        margin-top: 30px;
+    }
+}
+/* (MOBILE DEVICES) */
+@media  screen and (max-width:675px) {
+    #searchBox{
+        width: 90%;
+    }
+    form{
+        text-align: center;
+    }
+    #mini{
+        padding: 0;
+    }
+    #search{
+        margin: 30px auto;
+
+    }
+}   

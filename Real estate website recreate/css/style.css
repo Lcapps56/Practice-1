@@ -9,12 +9,12 @@ header{
     left: 0;
     height: 10%;
     width: 100%;
-    border-bottom: 1px solid white;
+    background: rgba(0, 0, 0, 0.172);
 }
 header nav{
     display: flex;
     justify-content: space-between;
-    padding: 10px 50px;
+    padding: 10px 80px;
 }
 header nav img{
     height: 50px;
@@ -23,11 +23,15 @@ header nav img{
 header nav ul{
     display: flex;
     list-style: none;
+    /* THIS IS HOW YOU VERTICALLY ALIGN  */
+    height: auto;
+    margin: auto 0; 
 }
 header nav ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
     margin: 0 10px;
+
 }
 #landing{
     padding-top: 100px;
@@ -39,4 +43,22 @@ header nav ul li a{
     top: 0;
     left: 0;
     z-index:-1;
+}
+/* END HEADER STYLE */
+
+/* BEGIN LANDING STYLE */
+#searchBox{
+    /* margin-top: 100px; */
+    width: 50%;
+    margin: 150px auto;
+    background: rgb(245, 243, 243);
+    height: auto;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+#searchBox h3{
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -25,19 +27,37 @@
     <section id="landing">
         <div id="searchBox">
             <h3>Apartments for rent in New York City</h3>
-            <form>
-                <input type="text" placeholder="Neighborhood">
-                <input type="text" placeholder="Min">
-                <input type="text" placeholder="Max">
+            <div id="mini">
+                <button class="buy">Rent</button>
+                <button class="buy" id="btn2">Buy</button>
+                <p>NYC apratments, condos, penthouses and houses for rent</p>
+            </div>
+            <form> <input type="text" class="basicInput" placeholder="Neighborhood">
 
-                <input type="button">
-                <input type="button">
-                <input type="button">
-                <input type="button">
+                <div id="shadow">
+                    <input type="text" id="min" placeholder="Min">
+                    <input type="text" id="max" placeholder="Max">
+                </div>
 
-                <button>Search</button>
+                <div id="shadow2">
+                    <button class="nums" type="button">Studio</button>
+                    <button class="nums" type="button">1</button>
+                    <button class="nums" type="button">2</button>
+                    <button class="nums" type="button">3+</button>
+                </div>
+
+                <button id="search" >Search</button>
             </form>
         </div>
     </section>
+    <section id="brands">
+        <p>As seen in</p>
+        <div id="logos">
+            <img src="./images/NYP.png" class="logo">
+            <img src="./images/yahoo.png" class="logo">
+            <img src="./images/NYP.png" class="logo">
+        </div>
+    </section>
 </body>
+
 </html>

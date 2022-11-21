@@ -65,7 +65,7 @@ header nav ul li a{
     height: auto;
     padding: 30px;
     border-radius: 6px;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.394);
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.499);
 
 }
 #searchBox h3{

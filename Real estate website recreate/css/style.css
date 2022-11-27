@@ -13,19 +13,21 @@ header{
 }
 header nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 10px 80px;
 }
 header nav img{
     height: 50px;
     width: 70px;
+    margin-right: auto;
 }
 header nav ul{
     display: flex;
     list-style: none;
     /* THIS IS HOW YOU VERTICALLY ALIGN  */
-    height: auto;
-    margin: auto 0; 
+    /* height: auto;
+    margin: auto 0;  */
+    align-items: center;
 }
 header nav ul li a{
     text-decoration: none;
